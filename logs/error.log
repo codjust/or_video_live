@@ -1,0 +1,19 @@
+2016/11/22 14:24:15 [emerg] 14199#0: getpwnam("www") failed (2: No such file or directory)
+2016/11/22 14:27:00 [emerg] 14374#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/11/22 14:27:00 [emerg] 14374#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/11/22 14:27:00 [emerg] 14374#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/11/22 14:27:00 [emerg] 14374#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/11/22 14:27:00 [emerg] 14374#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/11/22 14:27:00 [emerg] 14374#0: still could not bind()
+2016/11/22 14:27:08 [notice] 14444#0: signal process started
+2016/11/22 14:27:08 [error] 14444#0: open() "./logs/nginx.pid" failed (2: No such file or directory)
+2016/11/22 14:27:51 [error] 14467#0: *1 open() "/data0/htdocs/flv_files/1.fly" failed (2: No such file or directory), client: 127.0.0.1, server: flv.domain.com, request: "GET /1.fly HTTP/1.1", host: "127.0.0.1"
+2016/11/22 14:30:05 [error] 14467#0: *7 open() "/data0/htdocs/flv_files/favicon.ico" failed (2: No such file or directory), client: 219.131.192.34, server: flv.domain.com, request: "GET /favicon.ico HTTP/1.1", host: "119.29.33.243"
+2016/11/22 15:37:54 [error] 1738#0: *74 open() "/data0/htdocs/flv_files/favicon.ico" failed (2: No such file or directory), client: 219.131.192.34, server: flv.domain.com, request: "GET /favicon.ico HTTP/1.1", host: "119.29.33.243"
+2016/11/22 15:39:26 [error] 1738#0: *76 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 101.199.108.57, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.29.33.243", referrer: "http://119.29.33.243/"
+2016/11/22 15:39:26 [error] 1738#0: *77 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 171.13.14.145, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.29.33.243", referrer: "http://119.29.33.243/"
+2016/11/22 15:39:27 [error] 1738#0: *78 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 171.13.14.149, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.29.33.243", referrer: "http://119.29.33.243/"
+2016/11/22 15:39:29 [error] 1738#0: *78 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 171.13.14.149, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.29.33.243", referrer: "http://119.29.33.243/"
+2016/11/22 15:39:29 [error] 1738#0: *78 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 171.13.14.149, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.29.33.243", referrer: "http://119.29.33.243/"
+2016/11/22 15:39:29 [error] 1738#0: *79 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 171.8.167.64, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.29.33.243", referrer: "http://119.29.33.243/"
+2016/11/22 15:46:48 [error] 1738#0: *81 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 23.251.63.45, server: flv.domain.com, request: "GET http://fr.cyberpods.net/ HTTP/1.1", host: "fr.cyberpods.net"
