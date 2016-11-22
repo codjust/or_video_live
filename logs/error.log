@@ -17,3 +17,30 @@
 2016/11/22 15:39:29 [error] 1738#0: *78 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 171.13.14.149, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.29.33.243", referrer: "http://119.29.33.243/"
 2016/11/22 15:39:29 [error] 1738#0: *79 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 171.8.167.64, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.29.33.243", referrer: "http://119.29.33.243/"
 2016/11/22 15:46:48 [error] 1738#0: *81 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 23.251.63.45, server: flv.domain.com, request: "GET http://fr.cyberpods.net/ HTTP/1.1", host: "fr.cyberpods.net"
+2016/11/22 16:21:57 [error] 1738#0: *89 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 23.251.63.45, server: flv.domain.com, request: "GET http://fr.cyberpods.net/ HTTP/1.1", host: "fr.cyberpods.net"
+2016/11/22 16:59:52 [error] 1738#0: *91 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 123.151.43.65, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.29.33.243"
+2016/11/22 17:08:22 [error] 1738#0: *92 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 23.251.63.45, server: flv.domain.com, request: "GET http://fr.cyberpods.net/ HTTP/1.1", host: "fr.cyberpods.net"
+2016/11/22 17:13:53 [emerg] 9387#0: unknown directive "rtmp" in ./conf/nginx.conf:15
+2016/11/22 17:15:05 [emerg] 9509#0: unknown directive "rtmp" in ./conf/nginx.conf:15
+2016/11/22 17:15:11 [emerg] 9523#0: unknown directive "rtmp" in ./conf/nginx.conf:15
+2016/11/22 17:15:36 [emerg] 9540#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/11/22 17:15:36 [emerg] 9540#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/11/22 17:15:36 [emerg] 9540#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/11/22 17:15:36 [emerg] 9540#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/11/22 17:15:36 [emerg] 9540#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/11/22 17:15:36 [emerg] 9540#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/11/22 17:15:42 [notice] 9553#0: signal process started
+2016/11/22 17:16:01 [error] 9554#0: *94 [lua] upload_video.lua:9: failed to new upload: no boundary defined in Content-Type, client: 127.0.0.1, server: flv.domain.com, request: "GET /api/upload_video.json HTTP/1.1", host: "127.0.0.1"
+2016/11/22 17:16:13 [error] 9554#0: *95 [lua] upload_video.lua:9: failed to new upload: no boundary defined in Content-Type, client: 127.0.0.1, server: flv.domain.com, request: "GET /api/upload_video.json HTTP/1.1", host: "127.0.0.1"
+2016/11/22 17:16:54 [error] 9554#0: *96 [lua] upload_video.lua:9: failed to new upload: no boundary defined in Content-Type, client: 127.0.0.1, server: flv.domain.com, request: "GET /api/upload_video.json HTTP/1.1", host: "127.0.0.1"
+2016/11/22 18:34:04 [error] 9554#0: *109 directory index of "/data0/htdocs/flv_files/" is forbidden, client: 121.42.210.61, server: flv.domain.com, request: "GET / HTTP/1.1", host: "119.0.76.64:80"
+2016/11/22 18:37:50 [notice] 14992#0: signal process started
+2016/11/22 18:41:45 [error] 14993#0: *111 flv: could not read flv tag header, client: 183.14.42.100, server: 0.0.0.0:1935
+2016/11/22 18:42:00 [error] 14993#0: *112 failed to load external Lua file "./lua/upload_video.lua": ./lua/upload_video.lua:12: invalid escape sequence near '"', client: 127.0.0.1, server: flv.domain.com, request: "POST /api/upload_video.json?filename=test.mp4 HTTP/1.1", host: "127.0.0.1"
+2016/11/22 18:49:44 [error] 14993#0: *116 failed to load external Lua file "./lua/upload_video.lua": ./lua/upload_video.lua:13: invalid escape sequence near '"', client: 127.0.0.1, server: flv.domain.com, request: "POST /api/upload_video.json?filename=test.mp4 HTTP/1.1", host: "127.0.0.1"
+2016/11/22 18:50:49 [error] 14993#0: *117 failed to load external Lua file "./lua/upload_video.lua": ./lua/upload_video.lua:13: invalid escape sequence near ''', client: 127.0.0.1, server: flv.domain.com, request: "POST /api/upload_video.json?filename=test.mp4 HTTP/1.1", host: "127.0.0.1"
+2016/11/22 18:53:03 [error] 14993#0: *118 failed to load external Lua file "./lua/upload_video.lua": ./lua/upload_video.lua:15: invalid escape sequence near ''', client: 127.0.0.1, server: flv.domain.com, request: "POST /api/upload_video.json?filename=test.mp4 HTTP/1.1", host: "127.0.0.1"
+2016/11/22 18:55:46 [error] 14993#0: *119 [lua] upload_video.lua:65: failed create hd:/var/mp4s/test.mp4: Permission denied, client: 127.0.0.1, server: flv.domain.com, request: "POST /api/upload_video.json?filename=test.mp4 HTTP/1.1", host: "127.0.0.1"
+2016/11/22 19:08:46 [notice] 17464#0: signal process started
+2016/11/22 19:12:07 [error] 17465#0: *124 [lua] upload_video.lua:67: failed create hd:/var/flvs/a.flv: Permission denied, client: 219.131.192.34, server: flv.domain.com, request: "POST /api/upload_video.json?filename=a.flv HTTP/1.1", host: "119.29.33.243"
+2016/11/22 19:13:55 [error] 17465#0: *127 [lua] upload_video.lua:42: failed to new upload: no boundary defined in Content-Type, client: 101.226.64.174, server: flv.domain.com, request: "GET /api/upload_video.json?filename=test.mp4 HTTP/1.1", host: "119.29.33.243"
