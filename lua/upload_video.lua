@@ -3,6 +3,7 @@ local cjson  = require "cjson"
 
 -- curl  -F "filename=@/home/test/file.tar.gz" http://127.0.0.1/api/upload_video.json?filename=
 -- curl  -F "filename=@test.mp4" 'http://127.0.0.1/api/upload_video.json?filename=test.mp4'
+-- curl  -F "filename=@test.mp4" 'http://119.29.33.243/api/upload_video.json?filename=test.mp4'
 local args = ngx.req.get_uri_args()
 if not args then
     ngx.exit(ngx.HTTP_BAD_REQUEST)
@@ -65,7 +66,7 @@ while true do
         write_file, err = io.open(save_file_path,'wb+')
         if err then
             ngx.log(ngx.ERR, "failed create hd:" ,err)
-            response.msg = "failed create hd"
+            response.msg = "failed create file:" .. err
             break
         end
     elseif typ == "body" and "file" == io.type(write_file) then

@@ -26,3 +26,10 @@ mkdir /var/flvs/
 ```
 
 for reference this article：[https://www.leaseweb.com/labs/2013/11/streaming-video-demand-nginx-rtmp-module/](https://www.leaseweb.com/labs/2013/11/streaming-video-demand-nginx-rtmp-module/)
+
+(4)upload_video API<br>
+```
+    #using curl tool test
+    curl  -F "filename=@test.mp4" 'http://<ip:port>/api/upload_video.json?filename=test.mp4'
+```
+Can only upload mp4 and flv file.
